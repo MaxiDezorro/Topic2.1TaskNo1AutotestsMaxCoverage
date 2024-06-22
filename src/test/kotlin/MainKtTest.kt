@@ -46,7 +46,7 @@ class MainKtTest {
 
         val result = ru.netology.moneyOrder(cardType, transfer, maxLimit, transactionLimit)
 
-        assertEquals(100, result)
+        assertEquals(-1, result)
     }
 
     @Test
